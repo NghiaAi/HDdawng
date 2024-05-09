@@ -150,6 +150,7 @@ h3{
     color:white;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
+
 }
 
 .fea-text.show h5{
@@ -162,6 +163,7 @@ h3{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     display: block;
+
 }
 .divider{
     width: 50px;
@@ -169,4 +171,18 @@ h3{
     background: #149ddd;
     margin-left:110px; 
     margin-top: 15px;
+}
+
+.backtop{
+    width: 40px;
+    height: 40px;
+    background: #149ddd;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 120px;
+    right: 20px;
 }
