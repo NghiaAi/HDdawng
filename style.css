@@ -18,7 +18,7 @@ body {
   width: 100%;
   height: 100vh;
   top: 0;
-  background: transparent;
+  /* background: transparent; */
 }
 #section-bg {
   position: relative;
@@ -194,7 +194,7 @@ h3 {
   font-family: "Cormorant Garamond", serif;
 }
 
-.backtop {
+#section-bg .backtop {
   width: 40px;
   height: 40px;
   background: #149ddd;
@@ -206,7 +206,9 @@ h3 {
   position: fixed;
   bottom: 120px;
   right: 20px;
+  padding: 13px;
 }
+
 
 .table {
   max-width: 800px;
@@ -239,7 +241,7 @@ h3 {
   text-align: center;
   align-items: center;
   justify-content: center;
-   margin-top: 40px;
+  margin-top: 40px;
 }
 
 .table button {
